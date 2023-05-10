@@ -133,9 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 316888247}
   - component: {fileID: 316888246}
+  - component: {fileID: 316888248}
   m_Layer: 0
   m_Name: Mor
-  m_TagString: Untagged
+  m_TagString: Mor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,6 +208,53 @@ Transform:
   m_Father: {fileID: 1393186999}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &316888248
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316888245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.66, y: 1.65}
+    newSize: {x: 1.66, y: 1.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48, y: -0.24499999}
+      - {x: 0.53999996, y: -0.145}
+      - {x: 0.63, y: -0.015}
+      - {x: 0.71999997, y: 0.175}
+      - {x: 0.79999995, y: 0.36499998}
+      - {x: 0.82, y: 0.49499997}
+      - {x: 0.83, y: 0.555}
+      - {x: 0.83, y: 0.825}
+      - {x: 0.45, y: 0.825}
+      - {x: 0.39, y: 0.45499998}
+      - {x: 0.22999999, y: 0.125}
+      - {x: 0, y: -0.13499999}
+      - {x: -0.19999999, y: -0.275}
+      - {x: -0.41, y: -0.375}
+      - {x: -0.69, y: -0.435}
+      - {x: -0.82, y: -0.445}
+      - {x: -0.83, y: -0.45499998}
+      - {x: -0.83, y: -0.825}
+      - {x: -0.53999996, y: -0.825}
+      - {x: -0.29, y: -0.775}
+      - {x: -0.17, y: -0.72499996}
+      - {x: 0.16, y: -0.545}
 --- !u!1 &480568709
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,9 +265,10 @@ GameObject:
   m_Component:
   - component: {fileID: 480568711}
   - component: {fileID: 480568710}
+  - component: {fileID: 480568712}
   m_Layer: 0
   m_Name: Pembe
-  m_TagString: Untagged
+  m_TagString: Pembe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,6 +340,55 @@ Transform:
   m_Father: {fileID: 1393186999}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &480568712
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480568709}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.65, y: 1.66}
+    newSize: {x: 1.65, y: 1.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.295, y: -0.32999998}
+      - {x: -0.005, y: -0.14}
+      - {x: -0.13499999, y: -0.01}
+      - {x: -0.285, y: 0.22}
+      - {x: -0.36499998, y: 0.41}
+      - {x: -0.435, y: 0.7}
+      - {x: -0.445, y: 0.82}
+      - {x: -0.45499998, y: 0.83}
+      - {x: -0.825, y: 0.83}
+      - {x: -0.825, y: 0.56}
+      - {x: -0.815, y: 0.48999998}
+      - {x: -0.775, y: 0.29}
+      - {x: -0.635, y: -0.02}
+      - {x: -0.53499997, y: -0.16}
+      - {x: -0.465, y: -0.24}
+      - {x: -0.24499999, y: -0.47}
+      - {x: -0.065, y: -0.59999996}
+      - {x: 0.175, y: -0.71999997}
+      - {x: 0.305, y: -0.78}
+      - {x: 0.49499997, y: -0.82}
+      - {x: 0.555, y: -0.83}
+      - {x: 0.825, y: -0.83}
+      - {x: 0.825, y: -0.45}
+      - {x: 0.445, y: -0.39}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,9 +483,10 @@ GameObject:
   m_Component:
   - component: {fileID: 902781243}
   - component: {fileID: 902781242}
+  - component: {fileID: 902781244}
   m_Layer: 0
   m_Name: Turkuaz
-  m_TagString: Untagged
+  m_TagString: Turkuaz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,6 +558,55 @@ Transform:
   m_Father: {fileID: 1393186999}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &902781244
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902781241}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.65, y: 1.65}
+    newSize: {x: 1.65, y: 1.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.015, y: 0.125}
+      - {x: 0.205, y: 0.275}
+      - {x: 0.415, y: 0.375}
+      - {x: 0.695, y: 0.435}
+      - {x: 0.825, y: 0.445}
+      - {x: 0.825, y: 0.825}
+      - {x: 0.545, y: 0.825}
+      - {x: 0.48499998, y: 0.815}
+      - {x: 0.305, y: 0.775}
+      - {x: 0.21499999, y: 0.745}
+      - {x: -0.065, y: 0.59499997}
+      - {x: -0.155, y: 0.53499997}
+      - {x: -0.235, y: 0.465}
+      - {x: -0.465, y: 0.235}
+      - {x: -0.53499997, y: 0.145}
+      - {x: -0.625, y: 0.015}
+      - {x: -0.73499995, y: -0.225}
+      - {x: -0.79499996, y: -0.375}
+      - {x: -0.825, y: -0.545}
+      - {x: -0.825, y: -0.825}
+      - {x: -0.445, y: -0.825}
+      - {x: -0.385, y: -0.45499998}
+      - {x: -0.225, y: -0.125}
+      - {x: -0.13499999, y: 0.005}
 --- !u!1 &910635455
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +707,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ziplamaKuvveti: 3
+  mevcutRenk: 
+  topunRengi: {r: 0, g: 0, b: 0, a: 1}
+  turkuaz: {r: 0.20392159, g: 0.8862746, b: 0.9450981, a: 1}
+  sari: {r: 0.96470594, g: 0.8745099, b: 0.043137256, a: 1}
+  pembe: {r: 1, g: 0.003921569, b: 0.5058824, a: 1}
+  mor: {r: 0.54901963, g: 0.07450981, b: 0.9843138, a: 1}
 --- !u!58 &910635459
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -656,9 +810,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2009343735}
   - component: {fileID: 2009343734}
+  - component: {fileID: 2009343736}
   m_Layer: 0
   m_Name: Sari
-  m_TagString: Untagged
+  m_TagString: Sari
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -730,3 +885,51 @@ Transform:
   m_Father: {fileID: 1393186999}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2009343736
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009343733}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.65, y: 1.65}
+    newSize: {x: 1.65, y: 1.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.775, y: -0.295}
+      - {x: 0.635, y: 0.015}
+      - {x: 0.545, y: 0.155}
+      - {x: 0.24499999, y: 0.475}
+      - {x: 0.015, y: 0.625}
+      - {x: -0.175, y: 0.715}
+      - {x: -0.305, y: 0.765}
+      - {x: -0.445, y: 0.815}
+      - {x: -0.555, y: 0.825}
+      - {x: -0.825, y: 0.825}
+      - {x: -0.825, y: 0.445}
+      - {x: -0.695, y: 0.435}
+      - {x: -0.45499998, y: 0.375}
+      - {x: -0.155, y: 0.235}
+      - {x: 0.015, y: 0.125}
+      - {x: 0.13499999, y: 0.005}
+      - {x: 0.285, y: -0.225}
+      - {x: 0.375, y: -0.415}
+      - {x: 0.435, y: -0.695}
+      - {x: 0.445, y: -0.825}
+      - {x: 0.825, y: -0.825}
+      - {x: 0.825, y: -0.565}
+      - {x: 0.815, y: -0.49499997}
