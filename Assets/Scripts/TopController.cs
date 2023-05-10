@@ -42,7 +42,17 @@ public class TopController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.tag);
+        if (collision.tag == "RenkTekeri")
+        {
+            RastGeleRenk();
+            Destroy(collision.gameObject);
+            return;
+        }
+
+        if(collision.tag != mevcutRenk)
+        {
+            Debug.Log("GG");
+        }
     }
 
     void RastGeleRenk()
