@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TopController : MonoBehaviour
 {
@@ -10,6 +12,9 @@ public class TopController : MonoBehaviour
     public string mevcutRenk;
     public Color topunRengi;
     public Color turkuaz, sari, pembe, mor;
+    [SerializeField]
+    Text ScoreText;
+    public static int score = 0;
 
 
     private void Awake()
@@ -19,6 +24,7 @@ public class TopController : MonoBehaviour
 
     private void Start()
     {
+        ScoreText.text = "Score  " + score;
         RastGeleRenk();
     }
 
@@ -49,9 +55,18 @@ public class TopController : MonoBehaviour
             return;
         }
 
-        if(collision.tag != mevcutRenk)
+        if((collision.tag != mevcutRenk) && (collision.tag != "PuanArttirici") && (collision.tag != "RenkTekeri"))
         {
+            score = 0;//Can sistemi yapılcak.
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log("GG");
+        }
+
+        if(collision.tag == "PuanArttirici")
+        {
+            score += 5;
+            ScoreText.text = "Score  " + score;
+            Destroy(collision.gameObject);
         }
     }
 
