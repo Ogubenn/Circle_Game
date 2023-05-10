@@ -15,6 +15,7 @@ public class TopController : MonoBehaviour
     [SerializeField]
     Text ScoreText;
     public static int score = 0;
+    public GameObject halka, renkTekeri;
 
 
     private void Awake()
@@ -67,6 +68,9 @@ public class TopController : MonoBehaviour
             score += 5;
             ScoreText.text = "Score  " + score;
             Destroy(collision.gameObject);
+
+            Instantiate(halka, new Vector3(transform.position.x, transform.position.y + 8f, transform.position.z), Quaternion.identity);
+            Instantiate(renkTekeri, new Vector3(transform.position.x, transform.position.y + 12f, transform.position.z), Quaternion.identity);
         }
     }
 
